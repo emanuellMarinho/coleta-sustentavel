@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>Coleta Sustentável - Iati/PE</title>
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Coleta Sustentável</h1>
+        <p>Transformando hábitos em Iati - PE</p>
+    </header>
+    <section>
+        <div class="card">
+            <h2>Procure um ponto de descarte</h2>
+            <p>Use o mapa abaixo para procurar locais onde você pode descartar resíduos recicláveis de forma correta.
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15718.574616444132!2d-36.8511904!3d-9.0377566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7092096b1f152db%3A0x3aa41b6d9a0d6ee0!2sIati%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1683909738843"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="card">
+            <h2>Como descartar corretamente</h2>
+            <ul>
+                <li><strong>Papel:</strong> Sem gordura ou sujeira. Dobre e mantenha seco.</li>
+                <li><strong>Plástico:</strong> Lave potes e garrafas. Retire rótulos quando possível.</li>
+                <li><strong>Vidro:</strong> Envolva cacos em jornal ou caixa. Evite acidentes.</li>
+                <li><strong>Metal:</strong> Latas limpas e amassadas para ocupar menos espaço.</li>
+                <li><strong>Orgânico:</strong> Restos de alimentos devem ir para compostagem.</li>
+                <li><strong>Eletrônicos:</strong> Descarte em pontos autorizados (verifique no mapa).</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Calendário de Coleta</h2>
+            <p>Confira os dias em que a coleta ocorre na cidade.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Tipo de Lixo</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>Lixo comum</td>
+                        <td>08:00 às 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td>Recicláveis</td>
+                        <td>08:00 às 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>Lixo comum</td>
+                        <td>08:00 às 10:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h2>Dicas Sustentáveis</h2>
+            <ul>
+                <li>Evite produtos descartáveis e prefira reutilizáveis.</li>
+                <li>Reutilize sacolas e embalagens sempre que possível.</li>
+                <li>Ensine sua família e vizinhos sobre reciclagem.</li>
+                <li>Economize água ao lavar recicláveis.</li>
+                <li>Separe o lixo corretamente todos os dias.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Envie sua opinião</h2>
+            <p>Sua participação é essencial para melhorarmos os serviços de coleta e conscientização ambiental em Iati.
+            </p>
+            <form action="/enviar-feedback" method="POST"
+                style="display: flex; flex-direction: column; align-items: center;">
+                <input type="text" name="nome" placeholder="Digite seu nome" required
+                    style="margin-bottom: 10px; padding: 10px; width: 100%; max-width: 500px; border: 1px solid #ccc; border-radius: 5px;" />
+                <textarea name="mensagem" placeholder="Deixe aqui sua sugestão, dúvida ou comentário" required rows="5"
+                    style="margin-bottom: 10px; padding: 10px; width: 100%; max-width: 500px; border: 1px solid #ccc; border-radius: 5px; resize: vertical;"></textarea>
+                <button type="submit"
+                    style="padding: 10px 25px; background-color: #388e3c; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                    Enviar opinião
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
